@@ -1,16 +1,23 @@
 name: "Julia Wrobel's Website"
 output_dir: "."
 navbar:
-  title: "Julia Wrobel"
+  title: ""
+  type: inverse
   right:
     - text: "About"
       href: about.html
     - text: "Research"
       href: research.html
+    - text: "Software"
+      href: software.html
     - icon: fa-envelope fa-lg
       href: mailto:<jw3134@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/julia-wrobel/
+    - icon: fa-twitter
+      href: https://twitter.com/jwrobel1
+
 output:
   html_document:
     theme: simplex
+    css: styles.css

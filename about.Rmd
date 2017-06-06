@@ -1,7 +1,52 @@
 ---
-title: "Julia Wrobel"
+title: "About"
+runtime: shiny
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(ggplot2)
+library(shiny)
+```
+
 
 ### About me
 
-I like biostatistics. I also like pizza, hiking, rock climbing and playing (but not watching!) sports. 
+I like biostatistics. I also like pizza, rock climbing and hiking. 
+
+```{r}
+# random walk function
+randomWalk = function(numSteps = 100, prob = 0.5, init = 0){
+  walk = rep(NA, numSteps)
+  walk[1] = init
+  for(i in 1:(numSteps-1) ){
+    Z = rbinom(1,1, prob)
+    walk[i+1] = walk[i] + ifelse(Z == 1, 1, -1)
+  }
+  return(walk)
+}
+
+
+```
+
+Speaking of hiking, let's take a random walk.
+
+```{r walk, eval = FALSE}
+inputPanel(
+  selectInput("prob", label = "Probability of taking a step left:",
+              choices = c(0, 0.25, 0.5, 0.75, 1), selected = 0.5),
+  
+  sliderInput("n_steps", label = "Number of steps:",
+              min = 10, max = 1000, value = 100, step = 1)
+)
+
+renderPlot({
+  walk = randomWalk(numSteps = as.numeric(input$n_steps), prob = as.numeric(input$prob))
+  walk.df = data.frame(path = walk, step = 1:length(walk))
+
+  ggplot(walk.df, aes(step, walk)) + theme_bw() + geom_line(lwd = 2) +
+  labs(x = "Step", y = "Path")
+ 
+  
+})
+```
