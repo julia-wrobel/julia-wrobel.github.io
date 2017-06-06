@@ -1,5 +1,5 @@
 ---
-title: "Julia Wrobel"
+title: Software
 ---
 
 ```{r setup, include=FALSE}
@@ -9,7 +9,30 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-### Software
+## `refund.shiny`
+
+I developed the `refund.shiny` package with [Jeff Goldsmith](http://jeffgoldsmith.com/).  ([CRAN](https://cran.r-project.org/web/packages/refund.shiny/index.html); [GitHub](https://github.com/refunders/refund.shiny); [paper](http://onlinelibrary.wiley.com/doi/10.1002/sta4.109/abstract)). 
+
+Through the `plot_shiny()` function, this package produces interactive graphics for several of the most common functional data analyses:
+
+* Functional principal components analysis
+* Multilevel and time-varying functional principal components analysis
+* Function-on-scalar regression
+* Functional linear concurrent regression
+
+This package is closely aligned with the `refund` package: analyses are conducted using functions in `refund` and return objects that can be plotted using `refund.shiny::plot_shiny()`.
+
+## `refund`
+
+I'm currently a maintainer of the `refund` package ([CRAN](https://cran.r-project.org/web/packages/refund/index.html); [GitHub](https://github.com/refunders/refund)). I've contributed the following function to the package as well.
+
+* `mfpca.sc()` for multilevel functional principal components analysis
+
+
+## GitHub Packages
+
+* [`depthTests`](https://github.com/julia-wrobel/depthTests), a package for conducting nonparametric hypothesis tests based on multivariate band depth I developed with [Sara Lopez-Pintado](https://www.mailman.columbia.edu/people/our-faculty/sl2929).
+
 
 
 

@@ -11,7 +11,7 @@
 
 
 
-<title>Julia Wrobel</title>
+<title>Software</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -165,7 +165,7 @@ $(document).ready(function () {
 
 
 
-<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
@@ -173,7 +173,7 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html"></a>
+      <a class="navbar-brand" href="index.html">Julia Wrobel</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -182,9 +182,6 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="about.html">About</a>
-</li>
-<li>
-  <a href="research.html">Research</a>
 </li>
 <li>
   <a href="software.html">Software</a>
@@ -216,14 +213,36 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Julia Wrobel</h1>
+<h1 class="title toc-ignore">Software</h1>
 
 </div>
 
 
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
-<div id="software" class="section level3">
-<h3>Software</h3>
+<div id="refund.shiny" class="section level2">
+<h2><code>refund.shiny</code></h2>
+<p>I developed the <code>refund.shiny</code> package with <a href="http://jeffgoldsmith.com/">Jeff Goldsmith</a>. (<a href="https://cran.r-project.org/web/packages/refund.shiny/index.html">CRAN</a>; <a href="https://github.com/refunders/refund.shiny">GitHub</a>; <a href="http://onlinelibrary.wiley.com/doi/10.1002/sta4.109/abstract">paper</a>).</p>
+<p>Through the <code>plot_shiny()</code> function, this package produces interactive graphics for several of the most common functional data analyses:</p>
+<ul>
+<li>Functional principal components analysis</li>
+<li>Multilevel and time-varying functional principal components analysis</li>
+<li>Function-on-scalar regression</li>
+<li>Functional linear concurrent regression</li>
+</ul>
+<p>This package is closely aligned with the <code>refund</code> package: analyses are conducted using functions in <code>refund</code> and return objects that can be plotted using <code>refund.shiny::plot_shiny()</code>.</p>
+</div>
+<div id="refund" class="section level2">
+<h2><code>refund</code></h2>
+<p>I’m currently a maintainer of the <code>refund</code> package (<a href="https://cran.r-project.org/web/packages/refund/index.html">CRAN</a>; <a href="https://github.com/refunders/refund">GitHub</a>). I’ve contributed the following function to the package as well.</p>
+<ul>
+<li><code>mfpca.sc()</code> for multilevel functional principal components analysis</li>
+</ul>
+</div>
+<div id="github-packages" class="section level2">
+<h2>GitHub Packages</h2>
+<ul>
+<li><a href="https://github.com/julia-wrobel/depthTests"><code>depthTests</code></a>, a package for conducting nonparametric hypothesis tests based on multivariate band depth I developed with <a href="https://www.mailman.columbia.edu/people/our-faculty/sl2929">Sara Lopez-Pintado</a>.</li>
+</ul>
 </div>
 
 

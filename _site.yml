@@ -1,13 +1,11 @@
 name: "Julia Wrobel's Website"
 output_dir: "."
 navbar:
-  title: ""
-  type: inverse
+  title: "Julia Wrobel"
+  type: default
   right:
     - text: "About"
       href: about.html
-    - text: "Research"
-      href: research.html
     - text: "Software"
       href: software.html
     - icon: fa-envelope fa-lg
