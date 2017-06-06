@@ -1,0 +1,13 @@
+---
+title: "Research"
+---
+
+### I do research!
+
+Here is a plot:
+
+```{r, echo = FALSE, message = FALSE}
+data(cars)
+plot(cars$speed, cars$dist, pch = 19)
+```
+
