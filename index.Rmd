@@ -2,6 +2,23 @@
 title: "Julia Wrobel"
 ---
 
-### I have a webpage!
+### Biostatistics PhD candidata, Columbia University Mailman School of Public Health
 
-And I can put all kinds of stuff on it!
+<br><img src="images/jwrobel.jpg" alt="julia" style="width:85%; border:10px solid"><br>
+
+
+#### Curriculum Vitae
+
+My full CV is available [here](Downloads/wrobelCV.pdf).
+
+<br>
+
+#### Contact Information
+
+Julia Wrobel
+[Department of Biostatistics](http://www.mailman.columbia.edu/academic-departments/biostatistics)  
+[Columbia Mailman School of Public Health](http://www.mailman.columbia.edu/)  
+722 West 168th Street, Room 657  
+New York, New York 10032  
+
+Email: [jw3134@cumc.columbia.edu](mailto:jw3134@cumc.columbia.edu)  
