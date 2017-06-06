@@ -2,10 +2,13 @@
 title: "Julia Wrobel"
 ---
 
-### Biostatistics PhD candidata, Columbia University Mailman School of Public Health
+<link rel="stylesheet" href="styles.css" type="text/css">
 
-<br><img src="images/jwrobel.jpg" alt="julia" style="width:85%; border:10px solid"><br>
+### Biostatistics PhD candidate, Columbia University Mailman School of Public Health
 
+<br><img src="images/jwrobel.jpg" alt="julia" style="width:25%; border:10px solid"><br>
+
+I obtained my BA in chemistry from [Swarthmore College](http://www.swarthmore.edu/) in 2010. I am pursuing a Ph.D. degree in biostatistics from Columbia University, advised by [Jeff Goldsmith](http://jeffgoldsmith.com/). My current focus is on methods for analyzing and visualizing functional data. You can learn more about my research on the [research page](research.html).
 
 #### Curriculum Vitae
 

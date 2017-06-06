@@ -13,4 +13,4 @@ navbar:
       href: http://github.com/julia-wrobel/
 output:
   html_document:
-    theme: flatly
+    theme: simplex
