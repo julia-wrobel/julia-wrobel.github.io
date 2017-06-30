@@ -17,5 +17,5 @@ navbar:
 
 output:
   html_document:
-    theme: simplex
+    theme: lumen
     css: styles.css

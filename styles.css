@@ -1,7 +1,7 @@
 h1 {
   font-size: 32px;
 }
-h1.title {
+.title {
   font-size: 32px;
 }
 h2 {
@@ -22,6 +22,6 @@ h6 {
   font-size: 12px;
 }
 img {
-    display: block;
+   display: block;
     margin: auto;
-}
+} 
