@@ -1,7 +1,7 @@
 name: "Julia Wrobel's Website"
 output_dir: "."
 navbar:
-  title: "Julia Wrobel"
+  title: "Home"
   type: default
   right:
     - text: "About"

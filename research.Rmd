@@ -2,7 +2,7 @@
 title: "Julia Wrobel"
 ---
 
-### I do research!
+### Curve Registration
 
 Here is a plot:
 
