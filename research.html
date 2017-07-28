@@ -11,7 +11,7 @@
 
 
 
-<title>Julia Wrobel</title>
+<title>Research</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -181,10 +181,13 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="about.html">About</a>
+  <a href="research.html">Research</a>
 </li>
 <li>
   <a href="software.html">Software</a>
+</li>
+<li>
+  <a href="about.html">About</a>
 </li>
 <li>
   <a href="mailto:&lt;jw3134@cumc.columbia.edu&gt;">
@@ -213,15 +216,20 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Julia Wrobel</h1>
+<h1 class="title toc-ignore">Research</h1>
 
 </div>
 
 
-<div id="i-do-research" class="section level3">
-<h3>I do research!</h3>
-<p>Here is a plot:</p>
-<p><img src="research_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p><link rel="stylesheet" href="styles.css" type="text/css"></p>
+<div id="curve-registration" class="section level3">
+<h3>Curve Registration</h3>
+<p>Right now I’m developing a method to <strong>register exponential family functional data</strong>. If each curve represents an observation for one subject, then <em>curve registration</em> refers to warping the domain (often time) of a set of curves so that the main features of each curve are aligned across subjects. An example with simulated data is below.</p>
+<p><br><img src="images/registration1.png" alt="registration" style="width:75%"><br></p>
+<p>We apply <em>warping functions</em> (center) to the <em>unregistered curves</em> (left) to get our <em>registered</em> curves (right).</p>
+<p>The <em>exponential family</em> part comes in because not all functional observations are Gaussian or continuous. Our approach to registration allows alignment of data that is binary as well as continuous.</p>
+<p>We apply our method to accelerometer data where each subject’s binary activity (active vs. not active) is collected at every minute over 24 hours. Applying our registration technique to the activity data pulls out patterns in physically activity.</p>
+<p><br><img src="images/binaryRegistration.png" alt="binary registration" style="width:75%"><br></p>
 </div>
 
 
