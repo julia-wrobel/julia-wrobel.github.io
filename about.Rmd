@@ -2,6 +2,7 @@
 title: "About"
 runtime: shiny
 ---
+<link rel="stylesheet" href="_layouts/styles.css" type="text/css">
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)

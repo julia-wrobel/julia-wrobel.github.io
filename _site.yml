@@ -10,6 +10,8 @@ navbar:
       href: software.html
     - text: "About"
       href: about.html
+    #- text: "Blog"
+      #href: /blog
     - icon: fa-envelope fa-lg
       href: mailto:<jw3134@cumc.columbia.edu>
     - icon: fa-github fa-lg
