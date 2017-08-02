@@ -3,6 +3,7 @@ title: "Julia Wrobel"
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="/css/academicons.css"/>
 
 ### Biostatistics Ph.D. student, Columbia University Mailman School of Public Health
 
