@@ -2,7 +2,8 @@
 title: "Research"
 ---
 
-<link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="/Users/juliawrobel/julia-wrobel/css/academicons.css"/>
+<link rel="stylesheet" href="/Users/juliawrobel/julia-wrobel/css/styles.css" type="text/css">
 
 ### Curve Registration
 
