@@ -19,3 +19,8 @@ The _exponential family_ part comes in because not all functional observations a
 We apply our method to accelerometer data where each subject's binary activity (active vs. not active) is collected at every minute over 24 hours. Applying our registration technique to the activity data pulls out patterns in physically activity.
 
 <br><img src="images/binaryRegistration.png" alt="binary registration" style="width:75%"><br>
+
+### Interactive visualization of functional data analyses
+
+I also have software for communicating the results of functional data analyses. I made a poster on this work for the 2017 Women in Data Science conference, which you can access [here](Downloads/WSDS_poster/output/flexdashboard-poster.html).
+
