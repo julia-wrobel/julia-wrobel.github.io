@@ -22,5 +22,5 @@ We apply our method to accelerometer data where each subject's binary activity (
 
 ### Interactive visualization of functional data analyses
 
-I also have software for communicating the results of functional data analyses. I made a poster on this work for the 2017 Women in Data Science conference, which you can access [here](Downloads/WSDS_poster/output/flexdashboard-poster.html).
+I also have software for communicating the results of functional data analyses. I made a poster on this work for the 2017 Women in Data Science conference, which you can access [here](Downloads/flexdashboard-poster/output/index.html).
 
