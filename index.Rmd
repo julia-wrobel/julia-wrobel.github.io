@@ -12,7 +12,7 @@ title: "Julia Wrobel"
 
 I obtained my B.A. in chemistry from [Swarthmore College](http://www.swarthmore.edu/) in 2010. I am pursuing a Ph.D. degree in biostatistics from Columbia University, advised by [Jeff Goldsmith](http://jeffgoldsmith.com/). My research currently focuses on methods for analyzing and visualizing functional data. 
 
-My curriculum vitae is available [here](Downloads/wrobelCV.pdf).
+My curriculum vitae is available [here](Downloads/wrobel_cv.pdf).
 
 <br>
 
