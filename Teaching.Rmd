@@ -1,0 +1,22 @@
+---
+title: "Teaching"
+---
+
+<link rel="stylesheet" href="academicons.css"/>
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+### Teaching Assistant positions
+
+* Lead TA for Jeff Goldsmith's [Data Science I](http://jeffgoldsmith.com/DSI/), Fall 2017
+    * 11/06/2018 Guest lecture on [`flexdashboard` and `Shiny`](http://jeffgoldsmith.com/DSI/shiny.html)
+    
+* Lead TA for categorical data analysis, Spring 2017
+* TA for categorical data analysis, Fall 2016
+* TA for statistical inference, Spring 2016
+
+
+### Tutorials
+
+I love sharing new statistical programming tricks! To that end, I co-founded the [Columbia biostatistics computing club](https://columbia-computing-club.github.io/) in January 2017 with Ariel Chernofsky. I've put on a few tutorials as part of the CBCC, which are linked to below.
+
+*
