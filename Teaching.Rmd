@@ -14,7 +14,6 @@ title: "Teaching"
 * TA for categorical data analysis, Fall 2016
 * TA for statistical inference, Spring 2016
 
-
 ### Tutorials
 
 I love sharing new statistical programming tricks! To that end, I co-founded the [Columbia biostatistics computing club](https://columbia-computing-club.github.io/) in January 2017 with Ariel Chernofsky. I've put on a few tutorials as part of the CBCC, which you can access at [juliawrobel.com/tutorials](http://juliawrobel.com/tutorials/).
