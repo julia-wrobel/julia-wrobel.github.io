@@ -18,3 +18,5 @@ title: "Teaching"
 
 I love sharing new statistical programming tricks! To that end, I co-founded the [Columbia biostatistics computing club](https://columbia-computing-club.github.io/) in January 2017 with Ariel Chernofsky. I've put on a few tutorials as part of the CBCC, which you can access at [juliawrobel.com/tutorials](http://juliawrobel.com/tutorials/).
 
+Most recently I led a [tutorial on how to use the Mac OS X terminal!](http://juliawrobel.com/tutorials/osx_terminal.html)
+
