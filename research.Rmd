@@ -7,8 +7,9 @@ title: "Research"
 
 ### Curve Registration
 
-Right now I'm developing a method to **register exponential family functional data**. If each curve represents an observation for one subject, then _curve registration_ refers to warping the domain (often time) of a set of curves so that the main features of each curve are aligned across subjects. An example with simulated data is below.
+I developed a method to **register exponential family functional data**. Our paper on this topic is currently under review at [Biometrics](http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1541-0420); a preprint is available [here](Downloads/registration_ef.pdf). Our methods are implemented in an `R` package you can download [here](https://github.com/julia-wrobel/registr).
 
+If each curve represents an observation for one subject, then _curve registration_ refers to warping the domain (often time) of a set of curves so that the main features of each curve are aligned across subjects. An example with simulated data is below.
 
 <br><img src="images/registration1.png" alt="registration" style="width:75%"><br>
 
