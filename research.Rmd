@@ -7,21 +7,19 @@ title: "Research"
 
 ### Curve Registration
 
-I developed a method to **register exponential family functional data**. Our paper on this topic is currently under review at [Biometrics](http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1541-0420); a preprint is available [here](Downloads/registration_ef.pdf). Our methods are implemented in an `R` package you can download [here](https://github.com/julia-wrobel/registr).
+I developed a method to **register exponential family functional data**. Our paper on this topic is currently under review at [Biometrics](http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1541-0420); a preprint is available [here](Downloads/registration_ef.pdf). Our methods are implemented in the `registr` package, a GitHub hosted `R` package you can download [here](https://github.com/julia-wrobel/registr).
 
 If each curve represents an observation for one subject, then _curve registration_ refers to warping the domain (often time) of a set of curves so that the main features of each curve are aligned across subjects. An example with simulated data is below.
 
 <br><img src="images/registration1.png" alt="registration" style="width:75%"><br>
 
-We apply _warping functions_ (center) to the _unregistered curves_ (left) to get our _registered_ curves (right).
+_Warping functions_ (center) are applied to the _unregistered curves_ (left) to get _registered_ curves (right). The _exponential family_ part comes in because not all functional observations are Gaussian or continuous. Our approach to registration allows alignment of data that is binary as well as continuous. 
 
-The _exponential family_ part comes in because not all functional observations are Gaussian or continuous. Our approach to registration allows alignment of data that is binary as well as continuous. 
-
-We apply our method to accelerometer data where each subject's binary activity (active vs. not active) is collected at every minute over 24 hours. Applying our registration technique to the activity data pulls out patterns in physically activity.
+Below our method is applied to accelerometer data where each subject's binary activity (active vs. not active) is collected at every minute over 24 hours. Periods of inactivity are colored in light blue and periods of activity are colored in are colored in dark blue. Applying our registration technique to the activity data pulls out patterns in physical activity.
 
 <br><img src="images/binaryRegistration.png" alt="binary registration" style="width:75%"><br>
 
 ### Interactive visualization of functional data analyses
 
-I also have software for communicating the results of functional data analyses. I made a poster on this work for the 2017 Women in Data Science conference, which you can access [here](Downloads/flexdashboard-poster/poster/flexdashboard-poster.Rmd).
+I also have software for communicating the results of functional data analyses. I made a poster on this work for the 2017 Women in Statistics and Data Science (WSDS) conference, which you can access [here](Downloads/output/flexdashboard-poster.html).
 

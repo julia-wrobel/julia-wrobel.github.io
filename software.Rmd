@@ -9,6 +9,10 @@ knitr::opts_chunk$set(echo = FALSE)
 <link rel="stylesheet" href="academicons.css"/>
 <link rel="stylesheet" href="styles.css" type="text/css">
 
+## `registr`: registration for exponential family functional data
+
+Available on [GitHub](https://github.com/julia-wrobel/registr);
+
 ## `refund.shiny`
 
 I developed the `refund.shiny` package with [Jeff Goldsmith](http://jeffgoldsmith.com/).  ([CRAN](https://cran.r-project.org/web/packages/refund.shiny/index.html); [GitHub](https://github.com/refunders/refund.shiny); [paper](http://onlinelibrary.wiley.com/doi/10.1002/sta4.109/abstract)). 
