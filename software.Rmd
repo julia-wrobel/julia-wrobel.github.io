@@ -9,9 +9,11 @@ knitr::opts_chunk$set(echo = FALSE)
 <link rel="stylesheet" href="academicons.css"/>
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-## `registr`: registration for exponential family functional data
+## `registr`
 
-Available on [GitHub](https://github.com/julia-wrobel/registr);
+`R` software for registering exponential family functional data. Available on [GitHub](https://github.com/julia-wrobel/registr); code currently under review at [JOSS](https://joss.theoj.org/).
+
+* Instructions for download and use available on GitHub
 
 ## `refund.shiny`
 
