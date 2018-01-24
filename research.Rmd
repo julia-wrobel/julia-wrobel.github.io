@@ -15,7 +15,7 @@ If each curve represents an observation for one subject, then _curve registratio
 
 _Warping functions_ (center) are applied to the _unregistered curves_ (left) to get _registered_ curves (right). The _exponential family_ part comes in because not all functional observations are Gaussian or continuous. Our approach to registration allows alignment of data that is binary as well as continuous. 
 
-Below our method is applied to accelerometer data where each subject's binary activity (active vs. not active) is collected at every minute over 24 hours. Periods of inactivity are colored in light blue and periods of activity are colored in are colored in dark blue. Applying our registration technique to the activity data pulls out patterns in physical activity.
+Below our method is applied to accelerometer data where each subject's binary activity (active vs. not active) is collected at every minute over 24 hours. Periods of inactivity are colored in light blue and periods of activity are colored in dark blue. Applying our registration technique to the activity data pulls out patterns in physical activity.
 
 <br><img src="images/binaryRegistration.png" alt="binary registration" style="width:75%"><br>
 
