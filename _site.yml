@@ -10,8 +10,10 @@ navbar:
       href: software.html
     - text: "Teaching"
       href: teaching.html
-    - text: "About"
-      href: about.html
+    - text: "Tutorials"
+      href: http://juliawrobel.com/tutorials/
+    #- text: "About"
+     # href: about.html
     #- text: "Blog"
       #href: /blog
     - icon: fa-envelope fa-lg

@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
@@ -31,10 +31,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -190,7 +192,7 @@ $(document).ready(function () {
   <a href="teaching.html">Teaching</a>
 </li>
 <li>
-  <a href="about.html">About</a>
+  <a href="http://juliawrobel.com/tutorials/">Tutorials</a>
 </li>
 <li>
   <a href="mailto:&lt;jw3134@cumc.columbia.edu&gt;">
@@ -233,7 +235,7 @@ $(document).ready(function () {
 <p><link rel="stylesheet" href="academicons.css"/> <link rel="stylesheet" href="styles.css" type="text/css"></p>
 <div id="curve-registration" class="section level3">
 <h3>Curve Registration</h3>
-<p>I developed a method to <strong>register exponential family functional data</strong>. Our paper on this topic is currently under review at <a href="http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1541-0420">Biometrics</a>; a preprint is available <a href="Downloads/registration_ef.pdf">here</a>. Our methods are implemented in the <code>registr</code> package, a GitHub hosted <code>R</code> package you can download <a href="https://github.com/julia-wrobel/registr">here</a>.</p>
+<p>I developed a method to <strong>register exponential family functional data</strong>. Our paper on this topic is currently under review; a preprint is available <a href="Downloads/registration_ef.pdf">here</a>. Our methods are implemented in the <code>registr</code> package, a GitHub hosted <code>R</code> package you can download <a href="https://github.com/julia-wrobel/registr">here</a>.</p>
 <p>If each curve represents an observation for one subject, then <em>curve registration</em> refers to warping the domain (often time) of a set of curves so that the main features of each curve are aligned across subjects. An example with simulated data is below.</p>
 <p><br><img src="images/registration1.png" alt="registration" style="width:75%"><br></p>
 <p><em>Warping functions</em> (center) are applied to the <em>unregistered curves</em> (left) to get <em>registered</em> curves (right). The <em>exponential family</em> part comes in because not all functional observations are Gaussian or continuous. Our approach to registration allows alignment of data that is binary as well as continuous.</p>
