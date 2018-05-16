@@ -1,5 +1,9 @@
 ---
 title: "Research"
+output: 
+  html_document:
+    includes:
+       in_header: ga_script.html
 ---
 
 <link rel="stylesheet" href="academicons.css"/>

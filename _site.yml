@@ -1,31 +1,29 @@
-name: "Julia Wrobel's Website"
-output_dir: "."
+name: Julia Wrobel's Website
+output_dir: '.'
 navbar:
-  title: "Home"
+  title: Home
   type: default
   right:
-    - text: "Research"
-      href: research.html
-    - text: "Software"
-      href: software.html
-    - text: "Teaching"
-      href: teaching.html
-    - text: "Tutorials"
-      href: http://juliawrobel.com/tutorials/
-    #- text: "About"
-     # href: about.html
-    #- text: "Blog"
-      #href: /blog
-    - icon: fa-envelope fa-lg
-      href: mailto:<jw3134@cumc.columbia.edu>
-    - icon: fa-github fa-lg 
-      href: http://github.com/julia-wrobel/
-    - icon: ai-google-scholar-square ai-lg
-      href: https://scholar.google.com/citations?user=QI8GrFUAAAAJ&hl=en&oi=ao
-    - icon: fa-twitter 
-      href: https://twitter.com/jwrobel1
-
+  - text: Research
+    href: research.html
+  - text: Software
+    href: software.html
+  - text: Teaching
+    href: teaching.html
+  - text: Tutorials
+    href: http://juliawrobel.com/tutorials/
+  - icon: fa-envelope fa-lg
+    href: mailto:<jw3134@cumc.columbia.edu>
+  - icon: fa-github fa-lg
+    href: http://github.com/julia-wrobel/
+  - icon: ai-google-scholar-square ai-lg
+    href: https://scholar.google.com/citations?user=QI8GrFUAAAAJ&hl=en&oi=ao
+  - icon: fa-twitter
+    href: https://twitter.com/jwrobel1
 output:
   html_document:
     theme: lumen
     css: styles.css
+    lib_dir: site_libs
+    self_contained: no
+
