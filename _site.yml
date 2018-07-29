@@ -6,14 +6,16 @@ navbar:
   right:
   - text: Research
     href: research.html
+  - text: Papers
+    href: papers.html
   - text: Software
     href: software.html
-  - text: Teaching
-    href: teaching.html
   - text: Tutorials
     href: http://juliawrobel.com/tutorials/
   - icon: fa-envelope fa-lg
     href: mailto:<jw3134@cumc.columbia.edu>
+  - icon: ai-cv ai-lg
+    href: Downloads/wrobel_cv.pdf
   - icon: fa-github fa-lg
     href: http://github.com/julia-wrobel/
   - icon: ai-google-scholar-square ai-lg

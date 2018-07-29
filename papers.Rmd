@@ -1,0 +1,59 @@
+---
+title: 
+output: 
+  html_document:
+    includes:
+       in_header: ga_script.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<link rel="stylesheet" href="academicons.css"/>
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+## 2018
+
+**J. Wrobel**, V. Zipunnikov, J. Schrack, and J. Goldsmith (2018+).
+Registration for exponential family functional data.
+<i> Biometrics, </i> 
+accepted.
+
+**J. Wrobel**.
+registr: Registration for exponential family functional data (2018).
+<i> The Journal of Open Source Software, </i>
+<b>3</b>.
+[[Link](https://joss.theoj.org/papers/9c40c4f0ede1827cc5a9430c625d6494) |
+[GitHub](https://github.com/julia-wrobel/registr)]
+
+
+## 2017
+
+
+Sara L&oacute;pez-Pintado and **J. Wrobel** (2017).
+Robust non‐parametric tests for imaging data based on data depth.
+<i> Stat, </i>
+<b>6</b> 405-419.
+[[Link](http://onlinelibrary.wiley.com/doi/10.1002/sta4.109/abstract)
+| [GitHub](https://github.com/julia-wrobel/depthTests)]
+
+## 2016
+
+J. Kim, J. Santaella-Tenoria, C. Mauro, **J. Wrobel**, M. Cerd&aacute; (2016).
+State medical marijuana laws and the prevalence of opioids detected among fatally injured drivers.
+<i> American Journal of Public Health, </i>
+<b>106</b> 2032-2037.
+[[Link](https://ajph.aphapublications.org/doi/full/10.2105/AJPH.2016.303426)]
+
+**J. Wrobel**, S.Y. Park, A.M. Staicu, J. Goldsmith (2016).
+Interactive graphics for functional data analyses.
+<i> Stat, </i>
+<b>5</b> 108-118.
+[[arXiv](http://arxiv.org/abs/1602.04091)
+| [Link](http://onlinelibrary.wiley.com/doi/10.1002/sta4.109/abstract)
+| [GitHub](https://github.com/refunders/refund.shiny)
+| [CRAN](https://cran.r-project.org/web/packages/refund.shiny/index.html)]
+
+
+

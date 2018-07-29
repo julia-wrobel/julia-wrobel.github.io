@@ -14,7 +14,7 @@ output:
 
 <br><img src="images/julia3.jpg" alt="julia" style="width:25%"><br>
 
-I obtained my B.A. in chemistry from [Swarthmore College](http://www.swarthmore.edu/) in 2010. I am pursuing a Ph.D. degree in biostatistics from Columbia University, advised by [Jeff Goldsmith](http://jeffgoldsmith.com/). My research currently focuses on methods for analyzing and visualizing functional data. 
+I obtained my B.A. in chemistry from [Swarthmore College](http://www.swarthmore.edu/) in 2010. I am pursuing a Ph.D. degree in biostatistics from Columbia University, advised by [Jeff Goldsmith](http://jeffgoldsmith.com/). My research currently focuses on methods for analyzing and visualizing functional data, with recent applications in physical activity and structural MRI. 
 
 My curriculum vitae is available [here](Downloads/wrobel_cv.pdf).
 
