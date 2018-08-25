@@ -22,7 +22,9 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119400399-1"></script>
 <script>
@@ -100,6 +102,9 @@ img {
 }
 .tabbed-pane {
   padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
 }
 button.code-folding-btn:focus {
   outline: none;
@@ -243,9 +248,9 @@ $(document).ready(function () {
 <p><link rel="stylesheet" href="academicons.css"/> <link rel="stylesheet" href="styles.css" type="text/css"></p>
 <div id="curve-registration" class="section level3">
 <h3>Curve Registration</h3>
-<p>I developed a method to <strong>register exponential family functional data</strong>. Our paper on this topic is currently under review; a preprint is available <a href="Downloads/registration_ef.pdf">here</a>. Our methods are implemented in the <code>registr</code> package, a GitHub hosted <code>R</code> package you can download <a href="https://github.com/julia-wrobel/registr">here</a>.</p>
+<p>I developed a method to <strong>register exponential family functional data</strong>, which was recently published in <a href="https://onlinelibrary.wiley.com/journal/15410420">Biometrics</a>; the full text is available <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/biom.12963">here</a>. Our methods are implemented in the <code>registr</code> package, a GitHub hosted <code>R</code> package you can download <a href="https://github.com/julia-wrobel/registr">here</a>.</p>
 <p>If each curve represents an observation for one subject, then <em>curve registration</em> refers to warping the domain (often time) of a set of curves so that the main features of each curve are aligned across subjects. An example with simulated data is below.</p>
-<p><br><img src="images/registration1.png" alt="registration" style="width:75%"><br></p>
+<p><br><img src="images/registration.png" alt="registration" style="width:75%"><br></p>
 <p><em>Warping functions</em> (center) are applied to the <em>unregistered curves</em> (left) to get <em>registered</em> curves (right). The <em>exponential family</em> part comes in because not all functional observations are Gaussian or continuous. Our approach to registration allows alignment of data that is binary as well as continuous.</p>
 <p>Below our method is applied to accelerometer data where each subject’s binary activity (active vs. not active) is collected at every minute over 24 hours. Periods of inactivity are colored in light blue and periods of activity are colored in dark blue. Applying our registration technique to the activity data pulls out patterns in physical activity.</p>
 <p><br><img src="images/binaryRegistration.png" alt="binary registration" style="width:75%"><br></p>
