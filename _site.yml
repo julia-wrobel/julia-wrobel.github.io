@@ -11,7 +11,7 @@ navbar:
   - text: Software
     href: software.html
   - text: Tutorials
-    href: http://juliawrobel.com/tutorials/
+    href: http://juliawrobel.com/tutorials/tutorials.html
     
   right:
   - icon: fa-envelope fa-lg
