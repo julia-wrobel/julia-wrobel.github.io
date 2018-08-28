@@ -18,9 +18,14 @@ I obtained my B.A. in chemistry from [Swarthmore College](http://www.swarthmore.
 
 <br>
 
+* stuff
+* more stuff
+    * more more stuff
+
 #### Contact Information
 
 Julia Wrobel
+
 [Department of Biostatistics](http://www.mailman.columbia.edu/academic-departments/biostatistics)  
 [Columbia Mailman School of Public Health](http://www.mailman.columbia.edu/)  
 722 West 168th Street, Room 657  

@@ -15,13 +15,13 @@ navbar:
     
   right:
   - icon: fa-envelope fa-lg
-    href: mailto:<jw3134@cumc.columbia.edu>
+    href: mailto:jw3134@cumc.columbia.edu
   - icon: ai-cv ai-lg
     href: Downloads/wrobel_cv.pdf
   - icon: ai-google-scholar-square ai-lg
     href: https://scholar.google.com/citations?user=QI8GrFUAAAAJ&hl=en&oi=ao
-  - icon: fa-github fa-lg
-    href: http://github.com/julia-wrobel/
+  #- icon: fa-github fa-lg
+   # href: http://github.com/julia-wrobel/
 output:
   html_document:
     theme: lumen
