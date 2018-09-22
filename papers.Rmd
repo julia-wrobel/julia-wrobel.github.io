@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## 2018
 
-**J. Wrobel**, V. Zipunnikov, J. Schrack, and J. Goldsmith (2018+).
+**J. Wrobel**, V. Zipunnikov, J. Schrack, and J. Goldsmith (2018).
 Registration for exponential family functional data.
 <i> Biometrics, </i> 
 accepted.

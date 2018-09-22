@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## `registr`
 
-`R` software for registering exponential family functional data. Available on [GitHub](https://github.com/julia-wrobel/registr); code currently under review at [JOSS](https://joss.theoj.org/).
+`R` software for registering exponential family functional data. Available on [GitHub](https://github.com/julia-wrobel/registr).
 
 * Instructions for download and use available on GitHub
 
