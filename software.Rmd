@@ -15,9 +15,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## `registr`
 
-`R` software for registering exponential family functional data. Available on [GitHub](https://github.com/julia-wrobel/registr).
+`R` software for registering exponential family functional data. Instructions for download and use available on [GitHub](https://github.com/julia-wrobel/registr).
 
-* Instructions for download and use available on GitHub
 
 ## `refund.shiny`
 
@@ -41,7 +40,8 @@ I'm currently a maintainer of the `refund` package ([CRAN](https://cran.r-projec
 
 ## GitHub Packages
 
-* [`depthTests`](https://github.com/julia-wrobel/depthTests), a package for conducting nonparametric hypothesis tests based on multivariate band depth I developed with [Sara Lopez-Pintado](https://www.mailman.columbia.edu/people/our-faculty/sl2929).
+* [`mica`](https://github.com/julia-wrobel/mica): **M**ulti **I**mage **C**DF **A**lignment, a package for within-subject intensity normalization of structural MRI data.
+* [`depthTests`](https://github.com/julia-wrobel/depthTests), a package developed with [Sara Lopez-Pintado](https://bouve.northeastern.edu/directory/sara-lopez-pintado/) for conducting nonparametric hypothesis tests based on multivariate band depth.
 
 
 
