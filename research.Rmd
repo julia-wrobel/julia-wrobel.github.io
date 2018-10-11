@@ -11,7 +11,7 @@ output:
 
 ### Curve Registration
 
-I developed a method to **register exponential family functional data**, which was recently published in [Biometrics](https://onlinelibrary.wiley.com/journal/15410420); the full text is available [here](https://onlinelibrary.wiley.com/doi/abs/10.1111/biom.12963). Our methods are implemented in the `registr` package, a GitHub hosted `R` package you can download [here](https://github.com/julia-wrobel/registr).
+I developed a method to **register exponential family functional data**, which was recently published in [Biometrics](https://onlinelibrary.wiley.com/doi/abs/10.1111/biom.12963). Our methods are implemented in the `registr` package, a GitHub hosted `R` package you can download [here](https://github.com/julia-wrobel/registr).
 
 If each curve represents an observation for one subject, then _curve registration_ refers to warping the domain (often time) of a set of curves so that the main features of each curve are aligned across subjects. An example with simulated data is below.
 
