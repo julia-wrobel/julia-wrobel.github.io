@@ -9,14 +9,20 @@ output:
 <link rel="stylesheet" href="academicons.css"/>
 <link rel="stylesheet" href="styles.css" type="text/css">
 
+### Current Courses
+
+Spring 2021: [Biostatistical Methods II](https://www.youtube.com/channel/UCe2ytyjAsZbRpFytpxKL4zg/videos)  
+
 ### Teaching Assistant positions
 
-* Fall 2017: [Data Science I](http://jeffgoldsmith.com/DSI/), Columbia University
-    * Lead TA
-    * 11/06/2018 Guest lecture on [`flexdashboard` and `Shiny`](http://jeffgoldsmith.com/DSI/shiny.html)
+Fall 2017: [Data Science I](http://jeffgoldsmith.com/DSI/), Columbia University
+
+* Lead TA
+* 11/06/2018 Guest lecture on [`flexdashboard` and `Shiny`](http://jeffgoldsmith.com/DSI/shiny.html)
     
-* Spring 2017: Categorical data analysis, Columbia University 
-    * Lead TA
+Spring 2017: Categorical data analysis, Columbia University 
+
+* Lead TA
 * Fall 2016: Categorical data analysis, Columbia University 
 * Spring 2016: Statistical inference, Columbia University
 
@@ -24,5 +30,5 @@ output:
 
 I love sharing new statistical programming tricks! To that end, I co-founded the [Columbia biostatistics computing club](https://columbia-computing-club.github.io/) in January 2017 with Ariel Chernofsky. You can access tutorials I've put together at [juliawrobel.com/tutorials](http://juliawrobel.com/tutorials/).
 
-Most recently I led a [tutorial on how to use the Mac OS X terminal.](http://juliawrobel.com/tutorials/osx_terminal.html)
+There you can find tutorials on [how to use the Mac OS X terminal.](http://juliawrobel.com/tutorials/osx_terminal.html) and [how to make a shiny app with NBA data.](http://juliawrobel.com/tutorials/shiny_tutorial_nba.html)
 

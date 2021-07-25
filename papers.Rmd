@@ -13,12 +13,49 @@ knitr::opts_chunk$set(echo = FALSE)
 <link rel="stylesheet" href="academicons.css"/>
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-## 2018
+A subset of my publications are highlighted below. For more, please visit my [Google Scholar](https://scholar.google.com/citations?user=QI8GrFUAAAAJ&hl=en) page. In the following, <sup>&#8224;</sup> denotes equal contribution and <sup>&#8225;</sup> indicates a student under my supervision.
+
+## 2021
+
+E. McDonnell, V. Zipunnikov, J. Schrack, and J. Goldsmith, and  **J. Wrobel** (2021).
+Registration of 24-hour accelerometric rest-activity profiles and its application to human chronotypes.
+<i> Biological Rhythm Research, </i> 
+<b>1</b> 1-21.
+[[Link](https://www.tandfonline.com/doi/abs/10.1080/09291016.2021.1929673)]
+
+**J. Wrobel**, J Muschelli, and A. Leroux (2021). Diurnal physical activity patterns across ages in a large UK based cohort: the UK biobank study.
+<i> Sensors, </i> 
+<b>21</b> 1545.
+[[Link](https://www.mdpi.com/1424-8220/21/4/1545/htm)]
+
+
+**J. Wrobel**, and A. Bauer. registr.0: Incomplete Curve Registration for Exponential Family Functional Data (2021).
+<i> The Journal of Open Source Software, </i>
+<b>6</b>.
+[[Link](https://joss.theoj.org/papers/10.21105/joss.02964.pdf)]
+
+
+## 2020
+
+**J. Wrobel**, ML Martin, R Bakshi, PA Calabresi, M Elliot, D Roalf, RC Gur, RE Gur, RG Henry, G Nair, J Oh, N Papinutto, D Pelletier, Daniel Salo Reich, WD Rooney, TD Satterthwaite, W Stern, K Prabhakaran, NL Sicotte, RT Shinohara,  and J. Goldsmith (2020). Intensity warping for multisite MRI harmonization.
+	<i> NeuroImage, </i> 
+	<b>223</b> 117284.
+
+M. Becker, D. Calame, **J. Wrobel**, and A. Person. Online control of reach accuracy in mice. 
+	<i> Journal of Neurophysiology, </i> 
+	<b>124</b> 1637-1655.
+[[Link](https://journals.physiology.org/doi/abs/10.1152/jn.00324.2020)]
+
+## 2019
 
 **J. Wrobel**, V. Zipunnikov, J. Schrack, and J. Goldsmith (2018).
 Registration for exponential family functional data.
 <i> Biometrics, </i> 
-accepted.
+<b>75</b> 48-57.
+[[Link](https://onlinelibrary.wiley.com/doi/full/10.1111/biom.12963)]
+
+
+## 2018
 
 **J. Wrobel**.
 registr: Registration for exponential family functional data (2018).
@@ -31,7 +68,7 @@ registr: Registration for exponential family functional data (2018).
 ## 2017
 
 
-Sara L&oacute;pez-Pintado and **J. Wrobel** (2017).
+S L&oacute;pez-Pintado and **J. Wrobel** (2017).
 Robust non‐parametric tests for imaging data based on data depth.
 <i> Stat, </i>
 <b>6</b> 405-419.
