@@ -10,12 +10,14 @@ output:
 <link rel="stylesheet" href="styles.css" type="text/css">
 
 
-### Assistant Professor of Biostatistics
-### University of Colorado Denver
+### Assistant Professor of Biostatistics, Colorado School of Public Health
 
-<br><img src="images/julia3.jpg" alt="julia" style="width:25%"><br>
+<br><img src="images/headshot2.png" alt="julia" style="width:30%"><br>
 
-I obtained a BA in chemistry from [Swarthmore College](http://www.swarthmore.edu/) in 2010 and a PhD in biostatistics from [Columbia University](https://www.mailman.columbia.edu/become-student/departments/biostatistics) in 2019. My dissertation was advised by [Jeff Goldsmith](http://jeffgoldsmith.com/) and focused on methods for analyzing and visualizing functional data, with applications in wearable devices, structural MRI, and neurobiology. I joined the Colorado School of Public Health as an assistant professor in 2019.
+
+I am an Assistant Professor in the [Department of Biostatistics and Informatics](https://coloradosph.cuanschutz.edu/education/departments/biostatistics-informatics/academics) at the [Colorado School of Public Health](https://coloradosph.cuanschutz.edu/), and an Associate Editor for [Reproducibility](https://jasa-acs.github.io/repro-guide/) at the [Journal of the American Statistical Association](https://www.tandfonline.com/toc/uasa20/current). 
+
+I obtained a BA in chemistry from [Swarthmore College](http://www.swarthmore.edu/) in 2010 and a PhD in biostatistics from [Columbia University](https://www.mailman.columbia.edu/become-student/departments/biostatistics) in 2019. My dissertation was advised by [Jeff Goldsmith](http://jeffgoldsmith.com/) and focused on methods for analyzing and visualizing functional data, with applications in wearable devices, structural MRI, and neurobiology. 
 
 <br>
 

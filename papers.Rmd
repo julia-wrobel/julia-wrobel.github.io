@@ -15,13 +15,42 @@ knitr::opts_chunk$set(echo = FALSE)
 
 A subset of my publications are highlighted below. For more, please visit my [Google Scholar](https://scholar.google.com/citations?user=QI8GrFUAAAAJ&hl=en) page. In the following, <sup>&#8224;</sup> denotes equal contribution and <sup>&#8225;</sup> indicates a student under my supervision.
 
-## 2021
 
-E. McDonnell, V. Zipunnikov, J. Schrack, and J. Goldsmith, and  **J. Wrobel** (2021).
+## 2022
+
+
+T Vu, **J. Wrobel**, BG Bitler, EL Schenk, KR Jordan, and D Ghosh (2022). SPF: a spatial and functional data analytic approach to cell imaging data.
+<i> PLoS Computational Biology, </i>
+<b>18(6)</b>.
+[[Link](https://pubmed.ncbi.nlm.nih.gov/35704658/)]
+
+
+CR Harris, **J. Wrobel**, SN Vandekar (2022). mxnorm: An R Package to Normalize Multiplexed Imaging Data.
+<i> The Journal of Open Source Software, </i>
+<b>7(71)</b>.
+[[Link](https://joss.theoj.org/papers/10.21105/joss.04180.pdf)]
+
+
+CR Harris, ET McKinley, JT Roland, Q Liu, MJ Shrubsole, KS Lau, RJ Coffey, **J. Wrobel**, and SN Vandekar (2022).
+Quantifying and correcting slide-to-slide variation in multiplexed immunofluorescence images.
+<i> Bioinformatics, </i> 
+<b>38(6)</b> 1700-1707.
+[[Link](https://pubmed.ncbi.nlm.nih.gov/34983062/)]
+
+E. McDonnell, V. Zipunnikov, J. Schrack, J. Goldsmith, and  **J. Wrobel** (2022).
 Registration of 24-hour accelerometric rest-activity profiles and its application to human chronotypes.
 <i> Biological Rhythm Research, </i> 
 <b>1</b> 1-21.
 [[Link](https://www.tandfonline.com/doi/abs/10.1080/09291016.2021.1929673)]
+
+
+## 2021
+
+B. Steinhart<sup>&#8225;</sup>, KR. Jordan, J. Bapat, MD Post,  LW Brubaker, BG Bitler, and  **J. Wrobel** (2021).
+The Spatial Context of Tumor-Infiltrating Immune Cells Associates with Improved Ovarian Cancer Survival.
+<i> Molecular Cancer Research, </i> 
+<b>19(12)</b> 1973-1979.
+[[Link](https://pubmed.ncbi.nlm.nih.gov/34615692/)]
 
 **J. Wrobel**, J Muschelli, and A. Leroux (2021). Diurnal physical activity patterns across ages in a large UK based cohort: the UK biobank study.
 <i> Sensors, </i> 
@@ -29,7 +58,7 @@ Registration of 24-hour accelerometric rest-activity profiles and its applicatio
 [[Link](https://www.mdpi.com/1424-8220/21/4/1545/htm)]
 
 
-**J. Wrobel**, and A. Bauer. registr.0: Incomplete Curve Registration for Exponential Family Functional Data (2021).
+**J. Wrobel**, and A. Bauer (2021). registr 2.0: Incomplete Curve Registration for Exponential Family Functional Data.
 <i> The Journal of Open Source Software, </i>
 <b>6</b>.
 [[Link](https://joss.theoj.org/papers/10.21105/joss.02964.pdf)]

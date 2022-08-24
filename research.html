@@ -13,8 +13,8 @@
 
 <title>Research</title>
 
-<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -68,6 +68,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -92,6 +93,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -244,7 +248,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -308,19 +312,126 @@ $(document).ready(function () {
 </div>
 
 
-<p><link rel="stylesheet" href="academicons.css"/> <link rel="stylesheet" href="styles.css" type="text/css"></p>
-<div id="curve-registration" class="section level3">
-<h3>Curve Registration</h3>
-<p>I developed a method to <strong>register exponential family functional data</strong>, which was recently published in <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/biom.12963">Biometrics</a>. Our methods are implemented in the <code>registr</code> package, a GitHub hosted <code>R</code> package you can download <a href="https://github.com/julia-wrobel/registr">here</a>.</p>
-<p>If each curve represents an observation for one subject, then <em>curve registration</em> refers to warping the domain (often time) of a set of curves so that the main features of each curve are aligned across subjects. An example with simulated data is below.</p>
-<p><br><img src="images/registration.png" alt="registration" style="width:75%"><br></p>
-<p><em>Warping functions</em> (center) are applied to the <em>unregistered curves</em> (left) to get <em>registered</em> curves (right). The <em>exponential family</em> part comes in because not all functional observations are Gaussian or continuous. Our approach to registration allows alignment of data that is discrete as well as continuous.</p>
-<p>Below our method is applied to accelerometer data where each subject’s binary activity (active vs. not active) is collected at every minute over 24 hours. Periods of inactivity are colored in light blue and periods of activity are colored in dark blue. Applying our registration technique to the activity data pulls out patterns in physical activity.</p>
-<p><br><img src="images/binaryRegistration.png" alt="binary registration" style="width:75%"><br></p>
+<p><link rel="stylesheet" href="academicons.css"/>
+<link rel="stylesheet" href="styles.css" type="text/css"></p>
+<p>Below I highlight two of my main areas of methodological
+interest.</p>
+<div id="single-cell-multiplex-imaging" class="section level2">
+<h2>Single Cell Multiplex Imaging</h2>
+<p>Since 2019 I have been developing tools and methodology for analysis
+of <strong>multiplex single cell imaging</strong> (MI) data, an emerging
+image analysis technique that has revolutionized researchers’ ability to
+study tissue structure and function at a cellular level while preserving
+the original spatial context. <em>Single cell</em> refers to individual
+cell resolution, <em>multiplex</em> refers to multiple types of proteins
+in the tissue that are tagged, allowing for identification of nuanced
+cell subtypes, function, and tissue regions, and <em>imaging</em>
+indicates that biological spatial relationships in the tissue are
+preserved. An example image from a <a
+href="https://www.sciencedirect.com/science/article/abs/pii/S1556086421021754">paper</a>
+I worked on studying tumor-immune relationships in non-small cell lung
+carcinoma is below.</p>
+<p><br><img src="images/multiplexImage.png" alt="registration" style="width:75%"><br></p>
+<p>This image is a multichannel TIFF files, where each channel
+represents signal intensity of a particular protein. The left panel is
+the composite image combining all 8 channels collected for this
+dataset.The next three images are three individual channels from the
+same image, shown, from left to right, the nucleus (DAPI) channel, the
+tumor (cytokeratin) channel, and the immune (CD8) channel.</p>
+<p>Multiplex imaging data has a complex data acquisition, image
+processing, and analysis pipeline with unique challenges that can be
+addressed by statisticians. First, tissue is placed on a slide and
+labeled with multiple (multiplex) antibody markers. These images are
+then segmented to identify tissue compartments (e.g. tumor vs. stroma),
+cells, and nuclei. Marker intensities across samples must be normalized
+and batch corrected to account for non-biological variability. Then
+cells are <em>phenotyped</em>, or given biological label(s) based on
+their mean marker intensities. Finally, the datasets are undergo
+compositional and spatial analysis, potentially in combination with
+patient level outcomes such as survival time, disease subtype, or cancer
+stage. To address these challenges, I have developed methods and
+software for normalizing multiplex imaging data (1,2), for analyzing
+continuous marker expression using density-based variation analysis (3),
+for spatial analysis using scalar spatial summaries (4), and for spatial
+analysis using techniques drawn from functional data analysis (5,
+6).</p>
+<ol style="list-style-type: decimal">
+<li>CR Harris, <strong>J Wrobel</strong>, SN Vandekar. <a
+href="https://joss.theoj.org/papers/10.21105/joss.04180.pdf">mxnorm: An
+R Package to Normalize Multiplexed Imaging Data (2022)</a>. <em>The
+Journal of Open Source Software</em>.</li>
+<li>CR Harris, ET McKinley, JT Roland, Q Liu, MJ Shrubsole, KS Lau, RJ
+Coffey, <strong>J Wrobel</strong>, and SN Vandekar (2022). <a
+href="https://pubmed.ncbi.nlm.nih.gov/34983062/">Quantifying and
+correcting slide-to-slide variation in multiplexed immunofluorescence
+images.</a> <i> Bioinformatics</i>.</li>
+<li>S Seal, T Vu, T Ghosh, <strong>J Wrobel</strong>, and D Ghosh
+(2022). <a
+href="https://academic.oup.com/bioinformaticsadvances/article/2/1/vbac039/6590640">DenVar:
+Density-based Variation analysis of multiplex imaging data</a>.
+<em>Bioinformatics Advances</em>.</li>
+<li>B Steinhart, KR Jordan, J Bapat, MD Post, LW Brubaker, BG Bitler,
+and <strong>J Wrobel</strong> (2021). <a
+href="https://pubmed.ncbi.nlm.nih.gov/34615692/">The Spatial Context of
+Tumor-Infiltrating Immune Cells Associates with Improved Ovarian Cancer
+Survival</a>. <em>Molecular Cancer Research</em>.</li>
+<li>T Vu, <strong>J Wrobel</strong>, BG Bitler, EL Schenk, KR Jordan,
+and D Ghosh (2022). <a
+href="https://pubmed.ncbi.nlm.nih.gov/35704658/">SPF: a spatial and
+functional data analytic approach to cell imaging data</a>. <em>PLoS
+Computational Biology</em>.</li>
+<li>T Vu, S Seal, <strong>J Wrobel</strong>, T Ghosh, M Ahmadian, D
+Ghosh (2022). <a
+href="https://www.biorxiv.org/content/10.1101/2022.06.17.496475v1.full.pdf">FunSpace:
+A functional and spatial analytic approach to cell imaging data using
+entropy measures</a>. <em>bioRxiv</em>.</li>
+</ol>
 </div>
-<div id="interactive-visualization-of-functional-data-analyses" class="section level3">
-<h3>Interactive visualization of functional data analyses</h3>
-<p>I also have software for communicating the results of functional data analyses. I made a poster on this work for the 2017 Women in Statistics and Data Science (WSDS) conference, which you can access <a href="Downloads/output/flexdashboard-poster.html">here</a>.</p>
+<div id="curve-registration-for-functional-data" class="section level2">
+<h2>Curve Registration for Functional Data</h2>
+<p>I developed a method to <strong>register exponential family
+functional data</strong>, which was published in <a
+href="https://onlinelibrary.wiley.com/doi/abs/10.1111/biom.12963">Biometrics</a>
+in 2019. Our methods are implemented in the <code>registr</code>
+package, an <code>R</code> package on CRAN and GitHub you can download
+<a href="https://github.com/julia-wrobel/registr">here</a>.</p>
+<p>If each curve represents an observation for one subject, then
+<em>curve registration</em> refers to warping the domain (often time) of
+a set of curves so that the main features of each curve are aligned
+across subjects. An example with simulated data is below.</p>
+<p><br><img src="images/registration.png" alt="registration" style="width:75%"><br></p>
+<p><em>Warping functions</em> (center) are applied to the
+<em>unregistered curves</em> (left) to get <em>registered</em> curves
+(right). The <em>exponential family</em> part comes in because not all
+functional observations are Gaussian or continuous. Our approach to
+registration allows alignment of data that is discrete as well as
+continuous.</p>
+<p>Below our method is applied to accelerometer data where each
+subject’s binary activity (active vs. not active) is collected at every
+minute over 24 hours. Periods of inactivity are colored in light blue
+and periods of activity are colored in dark blue. Applying our
+registration technique to the activity data pulls out patterns in
+physical activity.</p>
+<p><br><img src="images/binaryRegistration.png" alt="binary registration" style="width:75%"><br></p>
+<ol style="list-style-type: decimal">
+<li><strong>J Wrobel</strong> (2018). <a
+href="https://joss.theoj.org/papers/9c40c4f0ede1827cc5a9430c625d6494">registr:
+Registration for exponential family functional data</a>. <em>The Journal
+of Open Source Software</em>.</li>
+<li><strong>J Wrobel</strong>, V Zipunnikov, J Schrack, and J Goldsmith
+(2018). <a
+href="https://onlinelibrary.wiley.com/doi/full/10.1111/biom.12963">Registration
+for exponential family functional data</a>. <em>Biometrics</em>.</li>
+<li><strong>J Wrobel</strong> and A Bauer (2021). <a
+href="https://joss.theoj.org/papers/10.21105/joss.02964.pdf">registr
+2.0: Incomplete Curve Registration for Exponential Family Functional
+Data</a>. <em>The Journal of Open Source Software</em>.</li>
+<li>E McDonnell, V Zipunnikov, J Schrack, J Goldsmith, and <strong>J
+Wrobel</strong> (2022). <a
+href="https://www.tandfonline.com/doi/abs/10.1080/09291016.2021.1929673">Registration
+of 24-hour accelerometric rest-activity profiles and its application to
+human chronotypes</a>. <em>Biological Rhythm Research</em>.</li>
+</ol>
 </div>
 
 

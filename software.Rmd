@@ -13,32 +13,37 @@ knitr::opts_chunk$set(echo = FALSE)
 <link rel="stylesheet" href="academicons.css"/>
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-## `registr`
 
-`R` software for registering exponential family functional data. Instructions for download and use available on [GitHub](https://github.com/julia-wrobel/registr).
+# CRAN
+
+* `mxnorm`: software for normalizing single-cell multiplex imaging data ([CRAN](https://cran.r-project.org/web/packages/mxnorm/index.html); [GitHub](https://github.com/ColemanRHarris/mxnorm);[software paper](https://joss.theoj.org/papers/10.21105/joss.04180.pdf);[methodology paper](https://pubmed.ncbi.nlm.nih.gov/34983062/)). 
+
+* `registr`
+  * `R` software for registering exponential family functional data ([CRAN](https://cran.r-project.org/web/packages/registr/index.html);[GitHub](https://github.com/julia-wrobel/registr))
+  * There are associated papers for [Incomplete curve registration](https://joss.theoj.org/papers/10.21105/joss.02964.pdf) and the [underlying methodology](https://onlinelibrary.wiley.com/doi/full/10.1111/biom.12963)
+
+* `refund`: a popular package for regression with functional data which I maintain and contribute to ([CRAN](https://cran.r-project.org/web/packages/refund/index.html); [GitHub](https://github.com/refunders/refund)). 
+
+* `refund.shiny`
+
+  * I developed the `refund.shiny` package with [Jeff Goldsmith](http://jeffgoldsmith.com/).  ([CRAN](https://cran.r-project.org/web/packages/refund.shiny/index.html); [GitHub](https://github.com/refunders/refund.shiny); [paper](http://onlinelibrary.wiley.com/doi/10.1002/sta4.109/abstract)). 
+
+  * Through the `plot_shiny()` function, this package produces interactive graphics for several of the most common functional data analyses:
+
+    * Functional principal components analysis
+    * Multilevel and time-varying functional principal components analysis
+    * Function-on-scalar regression
+    * Functional linear concurrent regression
+
+  * This package is closely aligned with the `refund` package: analyses are conducted using functions in `refund` and return objects that can be plotted using `refund.shiny::plot_shiny()`.
 
 
-## `refund.shiny`
+  
+# Bioconductor
 
-I developed the `refund.shiny` package with [Jeff Goldsmith](http://jeffgoldsmith.com/).  ([CRAN](https://cran.r-project.org/web/packages/refund.shiny/index.html); [GitHub](https://github.com/refunders/refund.shiny); [paper](http://onlinelibrary.wiley.com/doi/10.1002/sta4.109/abstract)). 
+* `VectraPolarisData`: An ExperimentHub data package that contain experiment-scale data from two large single-cell multiplex immunofluorescence imaging experiments ([Bioconductor](https://bioconductor.org/packages/release/data/experiment/html/VectraPolarisData.html); [GitHub](https://github.com/julia-wrobel/VectraPolarisData)).
 
-Through the `plot_shiny()` function, this package produces interactive graphics for several of the most common functional data analyses:
-
-* Functional principal components analysis
-* Multilevel and time-varying functional principal components analysis
-* Function-on-scalar regression
-* Functional linear concurrent regression
-
-This package is closely aligned with the `refund` package: analyses are conducted using functions in `refund` and return objects that can be plotted using `refund.shiny::plot_shiny()`.
-
-## `refund`
-
-I'm currently a maintainer of the `refund` package ([CRAN](https://cran.r-project.org/web/packages/refund/index.html); [GitHub](https://github.com/refunders/refund)). I've contributed the following function to the package as well.
-
-* `mfpca.sc()` for multilevel functional principal components analysis
-
-
-## GitHub Packages
+# GitHub 
 
 * [`mica`](https://github.com/julia-wrobel/mica): **M**ulti **I**mage **C**DF **A**lignment, a package for within-subject intensity normalization of structural MRI data.
 * [`depthTests`](https://github.com/julia-wrobel/depthTests), a package developed with [Sara Lopez-Pintado](https://bouve.northeastern.edu/directory/sara-lopez-pintado/) for conducting nonparametric hypothesis tests based on multivariate band depth.

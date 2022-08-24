@@ -9,7 +9,9 @@ output:
 <link rel="stylesheet" href="academicons.css"/>
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-### Current Courses
+### Full Courses
+
+Spring 2022: Biostatistical Methods II
 
 Spring 2021: [Biostatistical Methods II](https://www.youtube.com/channel/UCe2ytyjAsZbRpFytpxKL4zg/videos)  
 
