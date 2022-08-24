@@ -48,7 +48,7 @@ Below our method is applied to accelerometer data where each subject's binary ac
 
 
 1. **J Wrobel** (2018). [registr: Registration for exponential family functional data](https://joss.theoj.org/papers/9c40c4f0ede1827cc5a9430c625d6494). *The Journal of Open Source Software*.
-2. **J Wrobel**, V Zipunnikov, J Schrack, and J Goldsmith (2018).
+2. **J Wrobel**, V Zipunnikov, J Schrack, and J Goldsmith (2019).
 [Registration for exponential family functional data](https://onlinelibrary.wiley.com/doi/full/10.1111/biom.12963). *Biometrics*.
 3. **J Wrobel** and A Bauer (2021). [registr 2.0: Incomplete Curve Registration for Exponential Family Functional Data](https://joss.theoj.org/papers/10.21105/joss.02964.pdf).
  *The Journal of Open Source Software*.
