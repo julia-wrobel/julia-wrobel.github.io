@@ -45,6 +45,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # GitHub 
 
+* [`fastGFPCA`](https://github.com/julia-wrobel/fastGFPCA): fast Generalized Functional Principal Components Analysis.
 * [`mica`](https://github.com/julia-wrobel/mica): **M**ulti **I**mage **C**DF **A**lignment, a package for within-subject intensity normalization of structural MRI data.
 * [`depthTests`](https://github.com/julia-wrobel/depthTests), a package developed with [Sara Lopez-Pintado](https://bouve.northeastern.edu/directory/sara-lopez-pintado/) for conducting nonparametric hypothesis tests based on multivariate band depth.
 
