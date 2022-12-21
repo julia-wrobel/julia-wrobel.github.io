@@ -18,14 +18,19 @@ A subset of my publications are highlighted below. For more, please visit my [Go
 
 ## 2022
 
+S Bothwell<sup>&#8225;</sup>, A Kaizer, R Peterson, D Ostendorf,  V Catenacci, and  **J Wrobel** (2022).
+Pattern‐based clustering of daily weigh‐in trajectories using dynamic time warping.
+<i> Biometrics, to appear</i>. 
+[[Link](https://pubmed.ncbi.nlm.nih.gov/36217829/)]
 
-T Vu, **J. Wrobel**, BG Bitler, EL Schenk, KR Jordan, and D Ghosh (2022). SPF: a spatial and functional data analytic approach to cell imaging data.
+
+T Vu, **J Wrobel**, BG Bitler, EL Schenk, KR Jordan, and D Ghosh (2022). SPF: a spatial and functional data analytic approach to cell imaging data.
 <i> PLoS Computational Biology, </i>
 <b>18(6)</b>.
 [[Link](https://pubmed.ncbi.nlm.nih.gov/35704658/)]
 
 
-CR Harris, **J. Wrobel**, SN Vandekar (2022). mxnorm: An R Package to Normalize Multiplexed Imaging Data.
+CR Harris, **J Wrobel**, SN Vandekar (2022). mxnorm: An R Package to Normalize Multiplexed Imaging Data.
 <i> The Journal of Open Source Software, </i>
 <b>7(71)</b>.
 [[Link](https://joss.theoj.org/papers/10.21105/joss.04180.pdf)]
@@ -37,7 +42,7 @@ Quantifying and correcting slide-to-slide variation in multiplexed immunofluores
 <b>38(6)</b> 1700-1707.
 [[Link](https://pubmed.ncbi.nlm.nih.gov/34983062/)]
 
-E. McDonnell, V. Zipunnikov, J. Schrack, J. Goldsmith, and  **J. Wrobel** (2022).
+E McDonnell, V Zipunnikov, J Schrack, J Goldsmith, and  **J Wrobel** (2022).
 Registration of 24-hour accelerometric rest-activity profiles and its application to human chronotypes.
 <i> Biological Rhythm Research, </i> 
 <b>1</b> 1-21.
@@ -46,19 +51,19 @@ Registration of 24-hour accelerometric rest-activity profiles and its applicatio
 
 ## 2021
 
-B. Steinhart<sup>&#8225;</sup>, KR. Jordan, J. Bapat, MD Post,  LW Brubaker, BG Bitler, and  **J. Wrobel** (2021).
+B. Steinhart<sup>&#8225;</sup>, KR Jordan, J Bapat, MD Post,  LW Brubaker, BG Bitler, and  **J Wrobel** (2021).
 The Spatial Context of Tumor-Infiltrating Immune Cells Associates with Improved Ovarian Cancer Survival.
 <i> Molecular Cancer Research, </i> 
 <b>19(12)</b> 1973-1979.
 [[Link](https://pubmed.ncbi.nlm.nih.gov/34615692/)]
 
-**J. Wrobel**, J Muschelli, and A. Leroux (2021). Diurnal physical activity patterns across ages in a large UK based cohort: the UK biobank study.
+**J Wrobel**, J Muschelli, and A Leroux (2021). Diurnal physical activity patterns across ages in a large UK based cohort: the UK biobank study.
 <i> Sensors, </i> 
 <b>21</b> 1545.
 [[Link](https://www.mdpi.com/1424-8220/21/4/1545/htm)]
 
 
-**J. Wrobel**, and A. Bauer (2021). registr 2.0: Incomplete Curve Registration for Exponential Family Functional Data.
+**J Wrobel**, and A Bauer (2021). registr 2.0: Incomplete Curve Registration for Exponential Family Functional Data.
 <i> The Journal of Open Source Software, </i>
 <b>6</b>.
 [[Link](https://joss.theoj.org/papers/10.21105/joss.02964.pdf)]
@@ -66,18 +71,18 @@ The Spatial Context of Tumor-Infiltrating Immune Cells Associates with Improved 
 
 ## 2020
 
-**J. Wrobel**, ML Martin, R Bakshi, PA Calabresi, M Elliot, D Roalf, RC Gur, RE Gur, RG Henry, G Nair, J Oh, N Papinutto, D Pelletier, Daniel Salo Reich, WD Rooney, TD Satterthwaite, W Stern, K Prabhakaran, NL Sicotte, RT Shinohara,  and J. Goldsmith (2020). Intensity warping for multisite MRI harmonization.
+**J Wrobel**, ML Martin, R Bakshi, PA Calabresi, M Elliot, D Roalf, RC Gur, RE Gur, RG Henry, G Nair, J Oh, N Papinutto, D Pelletier, Daniel Salo Reich, WD Rooney, TD Satterthwaite, W Stern, K Prabhakaran, NL Sicotte, RT Shinohara,  and J. Goldsmith (2020). Intensity warping for multisite MRI harmonization.
 	<i> NeuroImage, </i> 
 	<b>223</b> 117284.
 
-M. Becker, D. Calame, **J. Wrobel**, and A. Person. Online control of reach accuracy in mice. 
+M Becker, D Calame, **J Wrobel**, and A Person. Online control of reach accuracy in mice. 
 	<i> Journal of Neurophysiology, </i> 
 	<b>124</b> 1637-1655.
 [[Link](https://journals.physiology.org/doi/abs/10.1152/jn.00324.2020)]
 
 ## 2019
 
-**J. Wrobel**, V. Zipunnikov, J. Schrack, and J. Goldsmith (2018).
+**J Wrobel**, V Zipunnikov, J Schrack, and J Goldsmith (2018).
 Registration for exponential family functional data.
 <i> Biometrics, </i> 
 <b>75</b> 48-57.
@@ -86,7 +91,7 @@ Registration for exponential family functional data.
 
 ## 2018
 
-**J. Wrobel**.
+**J Wrobel**.
 registr: Registration for exponential family functional data (2018).
 <i> The Journal of Open Source Software, </i>
 <b>3</b>.
@@ -97,7 +102,7 @@ registr: Registration for exponential family functional data (2018).
 ## 2017
 
 
-S L&oacute;pez-Pintado and **J. Wrobel** (2017).
+S L&oacute;pez-Pintado and **J Wrobel** (2017).
 Robust non‐parametric tests for imaging data based on data depth.
 <i> Stat, </i>
 <b>6</b> 405-419.
@@ -106,13 +111,13 @@ Robust non‐parametric tests for imaging data based on data depth.
 
 ## 2016
 
-J. Kim, J. Santaella-Tenoria, C. Mauro, **J. Wrobel**, M. Cerd&aacute; (2016).
+J Kim, J Santaella-Tenoria, C Mauro, **J Wrobel**, M Cerd&aacute; (2016).
 State medical marijuana laws and the prevalence of opioids detected among fatally injured drivers.
 <i> American Journal of Public Health, </i>
 <b>106</b> 2032-2037.
 [[Link](https://ajph.aphapublications.org/doi/full/10.2105/AJPH.2016.303426)]
 
-**J. Wrobel**, S.Y. Park, A.M. Staicu, J. Goldsmith (2016).
+**J Wrobel**, SY Park, AM Staicu, J Goldsmith (2016).
 Interactive graphics for functional data analyses.
 <i> Stat, </i>
 <b>5</b> 108-118.
