@@ -16,6 +16,13 @@ knitr::opts_chunk$set(echo = FALSE)
 A subset of my publications are highlighted below. For more, please visit my [Google Scholar](https://scholar.google.com/citations?user=QI8GrFUAAAAJ&hl=en) page. In the following, <sup>&#8224;</sup> denotes equal contribution and <sup>&#8225;</sup> indicates a student under my supervision.
 
 
+## 2023
+
+**J Wrobel**, CR Harris, SN Vandekar (2023).Statistical Analysis of Multiplex Immunofluorescence and Immunohistochemistry Imaging Data, book chapter in <i> Statistical Genomics </i>.
+[[Link](http://juliawrobel.com/Downloads/mIF_chapter.pdf) |
+[GitHub](https://github.com/julia-wrobel/mIF_chapter_code)]
+
+
 ## 2022
 
 S Bothwell<sup>&#8225;</sup>, A Kaizer, R Peterson, D Ostendorf,  V Catenacci, and  **J Wrobel** (2022).

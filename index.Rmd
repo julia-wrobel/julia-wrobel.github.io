@@ -12,7 +12,7 @@ output:
 
 ### Assistant Professor of Biostatistics, Emory University
 
-<br><img src="images/headshot2.png" alt="julia" style="width:30%"><br>
+<br><img src="images/headshots/hs1.jpg" alt="julia" style="width:30%"><br>
 
 
 I joined Emory University as an Assistant Professor in the [Department of Biostatistics and Bionformatics](https://sph.emory.edu/departments/bios/index.html) in 2023. Previously, I held a faculty appointment in the [Department of Biostatistics and Informatics](https://coloradosph.cuanschutz.edu/education/departments/biostatistics-informatics/academics) at the [Colorado School of Public Health](https://coloradosph.cuanschutz.edu/). Before that, I obtained a BA in chemistry from [Swarthmore College](http://www.swarthmore.edu/) in 2010 and a PhD in biostatistics from [Columbia University](https://www.mailman.columbia.edu/become-student/departments/biostatistics) in 2019. My dissertation focused on methods for analyzing and visualizing functional data, with applications in wearable devices, structural MRI, and neurobiology. 
