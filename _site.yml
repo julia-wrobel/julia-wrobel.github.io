@@ -13,11 +13,11 @@ navbar:
   - text: Teaching
     href: teaching.html
   - text: Tutorials
-    href: http://juliawrobel.com/tutorials/tutorials.html
+    href: https://julia-wrobel.github.io//tutorials/tutorials.html
     
   right:
   - icon: fa-envelope fa-lg
-    href: mailto:julia.wrobel@cuanschutz.edu
+    href: mailto:julia.wrobel@emory.edu
   - icon: ai-cv ai-lg
     href: Downloads/wrobel_cv.pdf
   - icon: ai-google-scholar-square ai-lg

@@ -1,3 +1,3 @@
-# juliawrobel.com
+# julia-wrobel.github.io
 
-Access my website [here](http://juliawrobel.com/)!
+Access my website [here](https://julia-wrobel.github.io/)!
