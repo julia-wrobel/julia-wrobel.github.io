@@ -16,6 +16,42 @@ knitr::opts_chunk$set(echo = FALSE)
 A subset of my publications are highlighted below. For more, please visit my [Google Scholar](https://scholar.google.com/citations?user=QI8GrFUAAAAJ&hl=en) page. In the following, <sup>&#8224;</sup> denotes equal contribution and <sup>&#8225;</sup> indicates a student under my supervision.
 
 
+## 2026
+
+CJ Sakitis<sup>&#8225;</sup>, J Laborde, **J Wrobel**, AC Soupir, CM Colin-Leitzinger, BG Bitler, MK Townsend, AB Lawson, JM Schildkraut, and SS Tworoger (2026).
+Bayesian multi-cell type models for the analysis of complex immune cell populations with application to ovarian cancer.
+<i> Briefings in Bioinformatics, </i>
+<b>27(1)</b> bbag053.
+
+SM Bird, R Peterson, M Kosnett, A Brooks-Russell, and **J Wrobel** (2026).
+Making highways and workplaces safer: An interpretable machine learning approach to predicting recent cannabis use and impairment.
+<i> Journal of Safety Research, </i>
+<b>97</b> 142-151.
+
+
+## 2025
+
+D Tu, **J Wrobel**, TD Satterthwaite, J Goldsmith, RC Gur, RE Gur, J Gertheiss, DS Bassett, and RT Shinohara (2025).
+Regression and alignment for functional data and network topology.
+<i> Biostatistics, </i>
+<b>26(1)</b> kxae026.
+
+AC Soupir, IV Gadiyar, BR Helm, CR Harris, SN Vandekar, LC Peres, RJ Coffey, **J Wrobel**, S Ma, and BL Fridley (2025).
+Benchmarking spatial co-localization methods for single-cell multiplex imaging data with applications to high-grade serous ovarian and triple negative breast cancer.
+<i> Statistics and Data Science in Imaging, </i>
+<b>2(1)</b> 2437947.
+
+NY Won, S Bird, **J Wrobel**, T Brown, and A Brooks-Russell (2025).
+Edible cannabis use on simulated driving performance.
+<i> Traffic Injury Prevention, </i>
+1-9.
+
+A Brooks-Russell, S Godbole, MJ Kosnett, S Limbacher, PS Subramanian, T Brown, and **J Wrobel** (2025).
+Pupillary dynamics as a marker of acute cannabis inhalation.
+<i> Clinical Toxicology, </i>
+<b>63(11)</b> 869-877.
+
+
 ## 2023
 
 **J Wrobel**, CR Harris, SN Vandekar (2023).Statistical Analysis of Multiplex Immunofluorescence and Immunohistochemistry Imaging Data, book chapter in <i> Statistical Genomics </i>.
