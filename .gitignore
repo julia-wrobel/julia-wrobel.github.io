@@ -1,6 +1,6 @@
 *icloud
 .Rproj.user
-.Rhistory
+*.Rhistory
 .RData
 .Ruserdata
 .DS_Store
