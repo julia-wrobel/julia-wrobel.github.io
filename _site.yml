@@ -13,7 +13,7 @@ navbar:
   - text: Teaching
     href: teaching.html
   - text: Tutorials
-    href: https://julia-wrobel.github.io//tutorials/tutorials.html
+    href: https://julia-wrobel.github.io/tutorials/tutorials.html
     
   right:
   - icon: fa-envelope fa-lg
