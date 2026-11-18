@@ -11,6 +11,9 @@ output:
 
 ### Full Courses
 
+
+Spring 2024-2026: [Advanced Statistical Computing](https://bios731.github.io/)
+
 Spring 2023: Biostatistical Methods II & Biostatistical Consulting II
 
 Spring 2022: Biostatistical Methods II
